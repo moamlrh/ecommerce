@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  overflow-x: hidden;
+  .bg-top{
+    position: absolute;
+    padding: 18px 0px;
+    z-index: -1;
+    background-color: #F5F5F5;
+    width: 100%;
+    left: 0;
+  @media all and (max-width: 1120px) {
+    display: none;
+  }
+  }
+}
