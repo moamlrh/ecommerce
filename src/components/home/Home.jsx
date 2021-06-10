@@ -28,7 +28,7 @@ const productsSlide = [
 const Home = () => {
   return (
     <div className="home">
-      <div className="image">
+      <div className={`image`}>
         <div className="info">
           <h1>
             Vegetable <br /> 100% Organic
